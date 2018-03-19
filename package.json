@@ -1,0 +1,24 @@
+{
+  "name": "profile-html5-starter",
+  "version": "1.0.0",
+  "description": "Paquets nécessaires à l'utilisation de GULP",
+  "main": "index.js",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "browser-sync": "^2.23.6",
+    "eslint": "^4.17.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-eslint": "^4.0.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-stylelint": "^6.0.0",
+    "node-sass": "^4.7.2",
+    "stylelint": "^8.4.0",
+    "stylelint-config-standard": "^18.0.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "fixstyle": "stylelint --fix --formatter verbose \"./scss/**/*.scss\""
+  }
+}
