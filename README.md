@@ -8,4 +8,6 @@ on bosse sur cette adresse.
 - insatlle npm sur le dossier Selest ( taper npm intalle dans terminale pour creer de dossier node_module )
 - fait le npm start ( pour voire le site )
 
-Merci
+J'ai mis une adresse pour voir tous a popros de bootstrap et scss.
+
+https://github.com/twbs/bootstrap
