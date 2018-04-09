@@ -21,7 +21,7 @@ watch_paths  = [
 // INITIALISATION BROWSERSYNC
 browserSync.init({
     injectChanges: true,
-    proxy: 'localhost:8888/htdocs/selset/'
+    proxy: 'localhost:8888/htdocs/selest/'
 });
 
 // RAFRAICHISSEMENT NAVIGATEUR
