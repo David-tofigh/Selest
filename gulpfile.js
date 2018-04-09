@@ -21,7 +21,7 @@ watch_paths  = [
 // INITIALISATION BROWSERSYNC
 browserSync.init({
     injectChanges: true,
-    proxy: 'http://localhost:8888/htdocs/selset/'
+    proxy: 'localhost:8888/htdocs/selset/'
 });
 
 // RAFRAICHISSEMENT NAVIGATEUR
@@ -75,4 +75,3 @@ gulp.task('watch', function() {
 gulp.task('default',
     gulp.series('watch')
 );
-
