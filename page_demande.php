@@ -1,5 +1,5 @@
 <body>
-    <?php include('../templates/header.html');?>
+    <?php include('templates/header.html');?>
     <div class="container-fluid">
         <div class="row">
             <div class="menu border border-secondary jumbotron col-sm-3">
@@ -36,7 +36,7 @@
 
             <div class="border border-secondary jumbotron col">
                 <h3 class="display-5">User Infos</h3>
-                <img src="../img/theme/profil.png" id="profil_picture">
+                <img src="img/theme/profil.png" id="profil_picture">
 
                 <hr class="my-4">
                 <p class="lead">
@@ -77,7 +77,7 @@
 
         </div>
     </div>
-    <?php include("../templates/footer.html");?>
+    <?php include("templates/footer.html");?>
 </body>
 
 </html>

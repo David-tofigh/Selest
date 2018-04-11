@@ -15,7 +15,11 @@ watch_paths  = [
     src + 'templates/*.html',
     src + 'js/*.js',
     src + 'php/*.php',
-    src + 'img/**/*'
+    src + 'img/**/*',
+    src + 'index.php',
+    src + 'page_demande.php',
+    src + 'page_offre.php',
+    src + 'gulpfile.js'
 ];
 
 // INITIALISATION BROWSERSYNC

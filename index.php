@@ -1,21 +1,19 @@
 <?php include('templates/header.html');?>
-        <div style="background-image:url(img/contenu/img_banner.png);">
+        <div class="img-background">
                 <div class="container">
-                        <div class="row" style="padding-top:20px">
+                        <div class="row">
                                 <div class="col"></div>
-                                        <div class="border border-secondary jumbotron col"style="background-color:black; opacity:0.8;">
-                                                <h5 style="text-align : center;color : #0A71B4; opacity:1;">
-                                                        Les avantages
-                                                </h5>
-                                                <p style="text-align : right;color : #EED93A; opacity:1;">Avantage 1</p>
-                                                <p style="text-align : right; color : #EED93A; opacity:1">Avantage 2</p>
+                                        <div class="border border-secondary col zone-avantage">
+                                                <h2 class="titre-avantage">Les Avantages</h2>
+                                                <p>Lorem ipsum dolor sit amet</p>
+                                                <p>consectetuer adipiscing elit</p>
+                                                <p>commodo ligula eget dolor</p>
                                         </div>
                                 </div>
                         </div>
                 </div>
         </div>
         <div class="container">
-                
                 <div class="border border-success jumbotron" style="margin-top:15px">
                 <h3 style="text-align : center; color : #0A71B4"> Acces direct </h3>
                 <hr class="my-4">

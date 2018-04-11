@@ -9220,4 +9220,30 @@ blockquote p {
   font-weight: 400;
 }
 
+.header {
+  background-color: #2a2e33;
+}
+
+.img-background {
+  background-color: #51767f;
+}
+
+.zone-avantage {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 20px;
+}
+
+.zone-avantage p {
+  color: #fff;
+}
+
+.titre-avantage {
+  text-align: center;
+  color: #fff;
+}
+
+.logo {
+  width: 100%;
+}
+
 /*# sourceMappingURL=global.css.map */
