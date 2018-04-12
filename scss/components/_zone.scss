@@ -1,7 +1,35 @@
+.txt-recherche{
+  font-size: 12px;
+  color: #ffffff;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: block;
+}
 .zone-avantage{
   background-color: rgba(0,0,0,0.5);
-  padding-top: 20px;
 }
 .zone-avantage p{
   color: #fff;
+  text-decoration: none;
+}
+.zone-avantage ul{
+  list-style: none;
+}
+.section{
+  margin-bottom:25px
+}
+.zone-service{
+  text-align: center;
+  background-color: #007BB6;
+  margin-top: -20px;
+}
+.zone-pub{
+  background-color: #2a2e33;
+  text-align: center;
+}
+.zone-marche{
+  text-align: center;
+  background-color: #007BB6;
+  margin-top: -20px;
+  color: #ffffff;
 }
