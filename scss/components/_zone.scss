@@ -7,6 +7,12 @@
 }
 .zone-avantage{
   background-color: rgba(0,0,0,0.5);
+  width: 35%;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  height: 260px;
+
 }
 .zone-avantage p{
   color: #fff;
@@ -14,13 +20,19 @@
 }
 .zone-avantage ul{
   list-style: none;
+  text-align: left;
+  line-height: 15px;
+  display: inline-block;
+  margin: auto;
+  margin-top: auto;
+  margin-top: 40px;
 }
 .section{
   margin-bottom:25px
 }
 .zone-service{
   text-align: center;
-  background-color: #007BB6;
+  background-color: #51767f;
   margin-top: -20px;
 }
 .zone-pub{
@@ -32,4 +44,7 @@
   background-color: #007BB6;
   margin-top: -20px;
   color: #ffffff;
+}
+.zone-txt-animation{
+  width:50%;
 }

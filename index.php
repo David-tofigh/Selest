@@ -2,7 +2,13 @@
         <div class="img-background">
                 <div class="container">
                         <div class="row">
-                                <div class=""></div>
+                                <div class="zone-txt-animation">
+                                        <ul>
+                                                <li>pratique</li>
+                                                <li>économique</li>
+                                                <li>solidaire</li>
+                                        </ul>
+                                </div>
                                         <div class="zone-avantage">
                                                 <strong class="titre-avantage">Les Avantages</strong>
                                                 <ul>

@@ -1,14 +1,18 @@
 .titre-avantage{
   text-align: center;
   color: $bg-color-light;
+  display: block;
+  margin:auto;
+  margin-top:30px;
 }
 .titre-acc-direct{
   text-align: center;
 }
 .txt-titre-service{
   color:$bg-color-light;
+  padding-top: 20px;
 }
-.xt-sous-titre-service{
+.txt-sous-titre-service{
   color:$bg-color-light;
   text-transform:none;
   font-weight:500;

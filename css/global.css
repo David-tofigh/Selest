@@ -9254,7 +9254,7 @@ blockquote p {
 
 .top-header {
   background-color: #51767f;
-  height: 50px;
+  height: 45px;
 }
 
 .form-control {
@@ -9280,7 +9280,7 @@ blockquote p {
 }
 
 .motor-recherche {
-  top: 3%;
+  top: 1.5%;
   position: absolute;
   left: 1%;
 }
@@ -9300,8 +9300,8 @@ blockquote p {
 .right-top {
   display: inline-block;
   width: 49%;
-  right: -25%;
   position: absolute;
+  padding-left: 340px;
 }
 
 .left-top {
@@ -9322,7 +9322,12 @@ blockquote p {
 }
 
 .img-background {
-  background-color: #51767f;
+  background-image: url("../img/img-background.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 460px;
+  background-position-y: 25%;
+  position: relative;
 }
 
 .txt-recherche {
@@ -9335,6 +9340,11 @@ blockquote p {
 
 .zone-avantage {
   background-color: rgba(0, 0, 0, 0.5);
+  width: 35%;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  height: 260px;
 }
 
 .zone-avantage p {
@@ -9344,6 +9354,12 @@ blockquote p {
 
 .zone-avantage ul {
   list-style: none;
+  text-align: left;
+  line-height: 15px;
+  display: inline-block;
+  margin: auto;
+  margin-top: auto;
+  margin-top: 40px;
 }
 
 .section {
@@ -9352,7 +9368,7 @@ blockquote p {
 
 .zone-service {
   text-align: center;
-  background-color: #007BB6;
+  background-color: #51767f;
   margin-top: -20px;
 }
 
@@ -9368,9 +9384,16 @@ blockquote p {
   color: #ffffff;
 }
 
+.zone-txt-animation {
+  width: 50%;
+}
+
 .titre-avantage {
   text-align: center;
   color: #fcfcfc;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .titre-acc-direct {
@@ -9379,9 +9402,10 @@ blockquote p {
 
 .txt-titre-service {
   color: #fcfcfc;
+  padding-top: 20px;
 }
 
-.xt-sous-titre-service {
+.txt-sous-titre-service {
   color: #fcfcfc;
   text-transform: none;
   font-weight: 500;
