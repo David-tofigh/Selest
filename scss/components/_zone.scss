@@ -7,12 +7,8 @@
 }
 .zone-avantage{
   background-color: rgba(0,0,0,0.5);
-  width: 35%;
-  position: absolute;
-  right: 10%;
-  top: 20%;
-  height: 260px;
-
+  width: 100%;
+  height: 250px;
 }
 .zone-avantage p{
   color: #fff;
@@ -71,11 +67,33 @@
   left:0;
 }
 .zone-marche{
+  background-color: #2a2e33;
+  background-size: cover;
   text-align: center;
-  background-color: #007BB6;
   margin-top: -20px;
   color: #ffffff;
 }
 .zone-txt-animation{
-  width:50%;
+  display: none;
+}
+/*****************************************************************/
+
+@media screen and (min-width:768px){
+  .zone-avantage{
+    background-color: rgba(0,0,0,0.5);
+    width: 35%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    height: 260px;
+  }
+
+}
+
+
+
+
+
+@media screen and (min-width:1200px){
+
 }

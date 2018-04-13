@@ -22,10 +22,11 @@ watch_paths  = [
     src + 'gulpfile.js'
 ];
 
+
 // INITIALISATION BROWSERSYNC
 browserSync.init({
     injectChanges: true,
-    proxy: 'localhost:8888/htdocs/selest/'
+    proxy: 'localhost:8888/htdocs/selest/index.php'
 });
 
 // RAFRAICHISSEMENT NAVIGATEUR

@@ -81,6 +81,7 @@
 <section class="zone-pub">
         <div>
                 <h2 class="txt-service-centre">pratique, économique, solidaire</h2>
+
         </div>
 </section>
 <section class="zone-marche">

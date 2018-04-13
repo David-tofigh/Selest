@@ -9254,7 +9254,7 @@ blockquote p {
 
 .top-header {
   background-color: #51767f;
-  height: 45px;
+  height: 95px;
 }
 
 .form-control {
@@ -9280,17 +9280,17 @@ blockquote p {
 }
 
 .motor-recherche {
-  top: 1.5%;
+  top: 0;
   position: absolute;
-  left: 1%;
 }
 
 .form-control {
-  padding: 0.3px !important;
+  padding: 0px !important;
+  width: 74%;
 }
 
 .btn {
-  padding: 0.3px !important;
+  padding: 0px !important;
 }
 
 .nav-item {
@@ -9298,15 +9298,13 @@ blockquote p {
 }
 
 .right-top {
-  display: inline-block;
-  width: 49%;
+  top: 10%;
+  left: 5%;
   position: absolute;
-  padding-left: 340px;
 }
 
 .left-top {
-  display: inline-block;
-  width: 49%;
+  float: left;
 }
 
 .right-top ul {
@@ -9321,13 +9319,53 @@ blockquote p {
   color: #000 !important;
 }
 
+/*** Version Tablette 768px *****************************************/
+@media screen and (min-width: 768px) {
+  .right-top {
+    position: absolute;
+    top: 0;
+    left: 65%;
+  }
+  .motor-recherche {
+    top: 0;
+    left: 1%;
+    position: absolute;
+  }
+  .top-header {
+    height: 45px;
+  }
+  .left-top {
+    display: inline-block;
+    width: 49%;
+  }
+  .btn {
+    padding: 0.3px !important;
+  }
+}
+
+/*** Version Pc 1200px *****************************************/
+@media screen and (min-width: 1200px) {
+  .right-top {
+    left: 75%;
+  }
+  .motor-recherche {
+    top: 7px;
+  }
+}
+
 .img-background {
   background-image: url("../img/img-slide-home.jpg");
   background-size: cover;
   width: 100%;
-  height: 550px;
-  background-position-y: 65%;
+  height: 250px;
   position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .img-background {
+    height: 550px;
+    background-position-y: 65%;
+  }
 }
 
 .txt-recherche {
@@ -9340,11 +9378,8 @@ blockquote p {
 
 .zone-avantage {
   background-color: rgba(0, 0, 0, 0.5);
-  width: 35%;
-  position: absolute;
-  right: 10%;
-  top: 20%;
-  height: 260px;
+  width: 100%;
+  height: 250px;
 }
 
 .zone-avantage p {
@@ -9415,14 +9450,27 @@ blockquote p {
 }
 
 .zone-marche {
+  background-color: #2a2e33;
+  background-size: cover;
   text-align: center;
-  background-color: #007BB6;
   margin-top: -20px;
   color: #ffffff;
 }
 
 .zone-txt-animation {
-  width: 50%;
+  display: none;
+}
+
+/*****************************************************************/
+@media screen and (min-width: 768px) {
+  .zone-avantage {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 35%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    height: 260px;
+  }
 }
 
 .titre-avantage {
