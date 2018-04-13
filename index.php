@@ -30,31 +30,32 @@
                 <div class="row">
                         <div class="col-lg-12">
                                 <p class="btn-service">
-                                        <a href="#" class="btn btn-sq  avoid-clicks">
-                                                <i class="fa fa-tags fa-2x"></i><br>
+                                        <a href="#" class="btn btn-sq  avoid-clicks icone">
+                                                <img src="img/annonce.png"><br>
                                                 Petites<br>annonces
                                         </a>
-                                        <a href="#" class="btn btn-sq  avoid-clicks">
-                                                <i class="fa fa-car fa-2x"></i><br>Auto partage<br>Covoiturage
+                                        <a href="#" class="btn btn-sq  avoid-clicks icone">
+                                                <img src="img/partage.png"><br>
+                                                Auto partage<br>Covoiturage
                                         </a>
-                                        <a href="#" class="btn btn-sq  avoid-clicks">
-                                                <i class="fa fa-wrench fa-2x"></i><br>
+                                        <a href="#" class="btn btn-sq  avoid-clicks icone">
+                                                <img src="img/objet.png"><br>
                                                 Prêt<br>d'objets
                                         </a>
-                                        <a href="#" class="btn btn-sq  avoid-clicks">
-                                                <i class="fa fa-envira fa-2x"></i><br>
+                                        <a href="#" class="btn btn-sq  avoid-clicks icone">
+                                                <img src="img/jardin.png"><br>
                                                 Jardins<br>partagés
                                         </a>
-                                        <a href="#" class="btn btn-sq  avoid-clicks">
-                                                <span class="icon-shop"></span><br>
-                                                Services de<br>Proximité
+                                        <a href="#" class="btn btn-sq  avoid-clicks icone">
+                                                <img src="img/service.png"><br>
+                                                Services<br>de Selest
                                         </a>
-                                        <a href="#" class="btn btn-sq  avoid-clicks">
-                                                <i class="fa fa-calendar-check-o fa-2x fa-fw"></i><br>
+                                        <a href="#" class="btn btn-sq  avoid-clicks icone-1">
+                                                <img src="img/local.png"><br>
                                                 Vie<br>locale
                                         </a>
-                                        <a href="#" class="btn btn-sq  avoid-clicks">
-                                                <i class="fa fa-users fa-2x"></i><br>
+                                        <a href="#" class="btn btn-sq  avoid-clicks icone-2">
+                                                <img src="img/group.png"><br>
                                                 Entraide<br>lien social
                                         </a>
                                 </p>
@@ -78,7 +79,9 @@
 <!--                </div>-->
 <!--        </div>-->
 <section class="zone-pub">
-        <h2 class="txt-service-centre">pratique, économique, solidaire</h2>
+        <div>
+                <h2 class="txt-service-centre">pratique, économique, solidaire</h2>
+        </div>
 </section>
 <section class="zone-marche">
         <div class="container">
