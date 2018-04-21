@@ -15,13 +15,18 @@ watch_paths  = [
     src + 'templates/*.html',
     src + 'js/*.js',
     src + 'php/*.php',
-    src + 'img/**/*'
+    src + 'img/**/*',
+    src + 'index.php',
+    src + 'page_demande.php',
+    src + 'page_offre.php',
+    src + 'gulpfile.js'
 ];
+
 
 // INITIALISATION BROWSERSYNC
 browserSync.init({
     injectChanges: true,
-    proxy: 'http://localhost:8888/htdocs/selset/'
+    proxy: 'localhost:8888/htdocs/selest/index.php'
 });
 
 // RAFRAICHISSEMENT NAVIGATEUR
@@ -75,4 +80,3 @@ gulp.task('watch', function() {
 gulp.task('default',
     gulp.series('watch')
 );
-

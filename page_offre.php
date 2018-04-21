@@ -20,7 +20,7 @@
 
                 <br/>
                 <div class="container">
-                    <img src="../img/theme/profil.png">
+                    <img src="img/theme/profil.png">
                     <div class="container">
                         <div class="title">
                             <br/>

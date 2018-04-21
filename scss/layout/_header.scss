@@ -1,0 +1,96 @@
+.header{
+  background-color: #ffffff;
+}
+.top-header{
+  background-color:#51767f;
+  height:95px;
+}
+.form-control{
+  background-color: rgba(0,0,0,0.3) !important;
+  border: 0.5px solid rgba(255,255,255,0.3);
+  color: #ffffff;
+}
+.form-control:hover{
+  background-color: #80aba7 !important;
+  border: 0.5px solid #ffffff;
+}
+.btn-outline-success {
+  color: #ffffff !important;
+  border: 0.5px solid #ffffff !important;
+}
+.btn-outline-success:hover {
+  color: #fff !important;
+  background-color: rgba(0,0,0,0.7) !important;
+  border-color: #80aba7  !important;
+}
+.motor-recherche{
+  top: 0;
+  position: absolute;
+}
+.form-control{
+  padding: 0px !important;
+  width: 74%;
+}
+.btn{
+  padding: 0px !important;
+}
+.nav-item{
+  float: left;
+}
+.right-top{
+  top: 10%;
+  left:5%;
+  position: absolute;
+}
+.left-top{
+  float: left;
+}
+.right-top ul{
+  list-style: none;
+}
+.btn-top-right{
+  color: #ffffff !important;
+}
+.btn-top-right:hover{
+  color: #000 !important;
+}
+
+/*** Version Tablette 768px *****************************************/
+
+@media screen and (min-width:768px){
+  .right-top{
+    position: absolute;
+    top: 0;
+    left: 65%;
+  }
+  .motor-recherche{
+    top: 0;
+    left:1%;
+    position: absolute;
+  }
+  .top-header{
+    height:45px;
+  }
+  .left-top{
+    display: inline-block;
+    width: 49%;
+  }
+  .btn{
+    padding: 0.3px !important;
+  }
+}
+
+
+
+
+
+/*** Version Pc 1200px *****************************************/
+
+@media screen and (min-width:1200px){
+  .right-top{
+    left:75%;
+  }
+  .motor-recherche{
+    top: 7px;
+  }
+}
