@@ -2,31 +2,32 @@
   background-color: #ffffff;
 }
 .top-header{
-  background-color:#51767f;
+  background-color:#746C91;
 }
-.form-control{
-  background-color: rgba(0,0,0,0.3) !important;
+
+.motor-search{
+  background-color: rgba(0,0,0,0.3);
   border: 0.5px solid rgba(255,255,255,0.3);
   color: #ffffff;
 }
-.form-control:hover{
-  background-color: #80aba7 !important;
+.motor-search:hover{
+  background-color: #a39bcc;
   border: 0.5px solid #ffffff;
 }
-.btn-outline-success {
-  color: #ffffff !important;
-  border: 0.5px solid #ffffff !important;
+.btn-motor-search {
+  color: #ffffff;
+  border: 0.5px solid #ffffff;
 }
-.btn-outline-success:hover {
-  color: #fff !important;
-  background-color: rgba(0,0,0,0.7) !important;
-  border-color: #80aba7  !important;
+.btn-motor-search:hover {
+  color: #fff;
+  background-color: rgba(0,0,0,0.7);
+  border-color: #80aba7;
 }
 .motor-recherche{
   top: 0;
   position: absolute;
 }
-.form-control{
+.motor-search{
   padding: 0px !important;
   width: 74%;
 }

@@ -23,10 +23,27 @@
     margin-right: 25px;
   }
   .btn-menu-selest:hover{
-    background-color: #51767f;
-    color: #ffffff;
+     background-color: #1a77b9;
+     color: #ffdd50;
+     border-radius: 20px;
+   }
+  .btn-menu-selest:active{
+    background-color: #1a77b9;
+    color: #ffdd50;
     border-radius: 5px;
   }
+  .btn-menu-selest:focus{
+    background-color: #1a77b9;
+    color: #ffdd50;
+    border-radius: 5px;
+  }
+
+
+
+
+
+
+
   //#main-navigation-inside .mr-auto> li:not(:first-child)::after{
   //  content: "";
   //  position: absolute;

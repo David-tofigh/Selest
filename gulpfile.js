@@ -22,7 +22,6 @@ watch_paths  = [
     src + 'gulpfile.js'
 ];
 
-
 // INITIALISATION BROWSERSYNC
 browserSync.init({
     injectChanges: true,

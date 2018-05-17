@@ -28,8 +28,14 @@
 }
 .zone-service{
   text-align: center;
-  background-color: #51767f;
+  background-color: #746c91;
   margin-top: -20px;
+}
+.btn-service a{
+  color: #ffffff;
+}
+.btn-service a:hover{
+  color: #ffdd50;
 }
 .icone{
   margin-right: 35px;
@@ -67,13 +73,18 @@
   left:0;
 }
 .zone-marche{
-  background-color: #ffffff;
+  background-color: #e2dde4;
   background-size: cover;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
   color: #000;
 }
+.titre-zone-march{
+  margin: 0px;
+}
+.marche-left{
+  background-image: url("../img/img-marche-left.png");
+}
+  
 .zone-txt-animation{
   display: none;
 }

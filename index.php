@@ -1,5 +1,5 @@
 <?php include('templates/header.html');?>
-        <div class="img-background">
+        <div class="img-background class-2">
                 <div class="container">
                         <div class="row">
                                 <div class="zone-txt-animation">
@@ -9,14 +9,14 @@
                                                 <li>solidaire</li>
                                         </ul>
                                 </div>
-                                        <div class="zone-avantage">
-                                                <strong class="titre-avantage">Les Avantages</strong>
-                                                <ul>
-                                                        <li><p>Lorem ipsum dolor sit amet</p></li>
-                                                        <li><p>Lorem ipsum dolor sit amet</p></li>
-                                                        <li><p>Lorem ipsum dolor sit amet</p></li>
-                                                </ul>
-                                        </div>
+<!--                                        <div class="zone-avantage">-->
+<!--                                                <strong class="titre-avantage">Les Avantages</strong>-->
+<!--                                                <ul>-->
+<!--                                                        <li><p>Lorem ipsum dolor sit amet</p></li>-->
+<!--                                                        <li><p>Lorem ipsum dolor sit amet</p></li>-->
+<!--                                                        <li><p>Lorem ipsum dolor sit amet</p></li>-->
+<!--                                                </ul>-->
+<!--                                        </div>-->
                                 </div>
                         </div>
                 </div>
@@ -78,26 +78,26 @@
 <!--                        </div>-->
 <!--                </div>-->
 <!--        </div>-->
-<section class="zone-pub">
-        <div>
-                <h2 class="txt-service-centre">pratique, économique, solidaire</h2>
-
-        </div>
-</section>
 <section class="zone-marche">
         <div class="container">
-                <h2>Comment ça marche.</h2>
+                <h2 class="titre-zone-march">Comment ça marche.</h2>
                 <div class="row">
-                        <div class="col">
+                        <div class="col-sm-4 marche-left">
                                 <p>Je poste ma demande</p>
                         </div>
-                        <div class="col">
+                        <div class="col-sm-4 marche-centre">
                                 <p>Quelqu'un me repond</p>
                         </div>
-                        <div class="col">
+                        <div class="col-sm-4 marche-right">
                                 <p>Le service est rendu</p>
                         </div>
                 </div>
+        </div>
+</section>
+<section class="zone-pub">
+        <div>
+                <h2 class="txt-service-centre">pratique, économique, solidaire</h2>
+                <img src="">
         </div>
 </section>
    <?php include('templates/footer.html');?>
