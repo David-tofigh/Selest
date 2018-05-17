@@ -1,9 +1,11 @@
 .footer{
-  text-align: center;
-  background-color: #0c5460;
+  background-color: #c6c8ca;
   height: 550px;
   color: #ffffff;
   margin-top: -20px;
+}
+.footer h2{
+  text-align: center;
 }
 @media screen and (min-width:768px){
   .footer{
@@ -15,10 +17,29 @@
     height: 250px;
   }
 }
-
 .block-footer{
   float: left;
 }
 .block-footer ul{
   list-style: none;
+}
+.block-footer::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-height: 200px;
+  width: 2px;
+  background-color: #818182;
+}
+.pied-page{
+  background-color: #51767f;
+  height: 45px;
+  color: #ffffff;
+  text-align: center;
+}
+.txt-end-page{
+  position: relative;
+  top: 10px;
 }

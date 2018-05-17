@@ -16,4 +16,26 @@
     width:80%;
     margin-bottom: 15px;
   }
+  .top-menu{
+    margin:auto;
+  }
+  .li-menu{
+    margin-right: 25px;
+  }
+  .btn-menu-selest:hover{
+    background-color: #51767f;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+  //#main-navigation-inside .mr-auto> li:not(:first-child)::after{
+  //  content: "";
+  //  position: absolute;
+  //  top: 9px;
+  //  width: 1px;
+  //  height: 24px;
+  //  margin-left: -2px;
+  //  background: #de0027;
+  //}
 }
+
+

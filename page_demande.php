@@ -2,10 +2,10 @@
     <?php include('templates/header.html');?>
     <div class="container-fluid">
         <div class="row links">
-            <div class="col-sm-3">
+            <div class="col-sm-3 zone-left">
                 <h2>Demandes d'objets</h2>
                 <hr class="my-2">
-                <nav class="border border-secondary jumbotron">
+                <nav class="">
                     <ul>
                         <li class="">
                             <a href="">Offres</a>
@@ -37,33 +37,33 @@
                     </ul>
                 </nav>
             </div>
-            <div class="card bottom_shadowed_box col-sm-5">
+            <div class="col-sm-5 zone-center">
                 <div class="card-body">
                     <h2 class="card-title">Emeline La Fondue</h2>
                     <strong class="card-text">Description</strong>
                     <p class="card-title">Cherche une personne pour venir m'aider à garder les chiens des voisins, ils sont très gentils, et en manque d'amuuur, pliz hailp</p>
                 </div>
-                <div class="">
+                <div class="txt-categorie">
                     <p class="lead">Categorie :
                         <span>
                                 Multiple
-                            </span>
+                        </span>
                     </p>
                     <p class="lead">Souèts :
                         <span>
                                 120(2heures)
-                            </span>
+                        </span>
                     </p>
                     <p class="lead">Date souhaitée :
                         <span>
                                 12/07/2018
-                            </span>
+                        </span>
                     </p>
                     <button type="button" class="btn btn-success">Accepter</button>
                 </div>
             </div>
-            <div class="card bottom_shadowed_box col-sm-3">
-                <img class="card-img-top" src="img/theme/profil.png" alt="Card image cap">
+            <div class="col-sm-4 zone-right">
+                <img class="" src="img/theme/profil.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-title">User Name</p>
                     <p class="card-text">Description</p>
